@@ -12,7 +12,7 @@ async def on_message(message):
             for j in range (10):
                 await message.channel.send("!!!!!!!!CYBERPUNK HAS BEEN DELAYED AGAIN!!!!!!!!!!") 
 
-client.run('Nzg1NTg4MzA2MDExNzUwNDQx.X86CHw.lKJSHpAjuZrv1CPKoxVmS_JnUyQ')
+client.run('')
 
 
  

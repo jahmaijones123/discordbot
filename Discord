@@ -10,9 +10,9 @@ async def on_message(message):
     for i in range (len(keywords)):
         if keywords[i] in message.content: 
             for j in range (10):
-                await message.channel.send("!!!!!!!!CYBERPUNK HAS BEEN DELAYED AGAIN!!!!!!!!!!") 
+                await message.channel.send("") #enter spam message here 
 
-client.run('')
+client.run('') #enter the discord token
 
 
  

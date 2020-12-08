@@ -1,0 +1,18 @@
+import discord 
+
+client = discord.Client()
+
+keywords = ["help" , "hi" , "hello" , "cyberpunk" , "the real", "hey" , " who are you"] #list of keywords 
+
+@client.event #checks anything that happens in the Discord server 
+
+async def on_message(message):
+    for i in range (len(keywords)):
+        if keywords[i] in message.content: 
+            for j in range (10):
+                await message.channel.send("!!!!!!!!CYBERPUNK HAS BEEN DELAYED AGAIN!!!!!!!!!!") 
+
+client.run('Nzg1NTg4MzA2MDExNzUwNDQx.X86CHw.lKJSHpAjuZrv1CPKoxVmS_JnUyQ')
+
+
+ 
